@@ -10,8 +10,8 @@ print(sort_name)"""
 
 def number_count():
     count = 0 
-    while count == 5:
-        count +=1
+    while count <= 5:
         print(count)
+        count += 1
 
 number_count()
